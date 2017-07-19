@@ -12,7 +12,6 @@ application.set('view engine', 'mustache');
 
 var storage = {
     users: [{ name: 'admin',  email:'pjdelia611@yahoo.com' ,password: 'delias-rule' }],
-    missions: [],
     sessionId: 0,
     sessions: []
 };
@@ -48,6 +47,7 @@ application.post('/register', (request, response) => {
 
     var user = {
         name: request.body.name,
+        email: request.body.email,
         password: request.body.password
     }
 
