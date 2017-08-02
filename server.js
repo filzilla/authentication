@@ -11,7 +11,7 @@ application.set('views', './views');
 application.set('view engine', 'mustache');
 
 var storage = {
-    users: [{ name: 'admin',  email:'pjdelia611@yahoo.com' ,password: 'delias-rule' }],
+    users: [{ name: 'admin',  email:'pjdelia60@yahoo.com' ,password: 'delias-rule' }],
     sessionId: 0,
     sessions: []
 };
